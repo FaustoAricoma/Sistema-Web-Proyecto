@@ -1,0 +1,335 @@
+body{
+      background-image: url("../images/fondo.png");
+     
+    }
+  h1 {
+      font-size: 25px;
+      color: #000;
+      font-family: Tahoma;
+      text-shadow: 4px 4px green;
+  }
+ h2 {
+      font-size: 18px;
+      color: #000;
+      font-family: Tahoma;
+      text-shadow: 2px 2px yellowgreen;
+  }
+  .limpiar {
+  	overflow: hidden;
+  }
+
+  /*ESTILO PARA LA PARTE SUPERIOR*/
+.cabecera{
+	width: 100%;
+	height: 120px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+.titulo{
+	font-size: 60px;
+	color: #ffffff;
+	font-family: Tahoma;
+	display: inline;
+	text-shadow: 2px 2px 2px black;
+}
+.usuario{
+	font-size: 15px;
+	color: #ffffff;
+	font-family: Tahoma;
+	display: inline;
+	padding-right: 8px;
+	border: solid 1px;
+	border-radius: 5px;
+	
+}
+
+/*ESTILO.FORMU.DE.INGRESO.AL.SISTEMA*/
+.formu_ingreso{
+	width: 200px;
+	height: 250px;
+	position: relative;
+	top: 60px;
+	left: 40%;
+	padding: 10px;
+	border: solid 2px;
+	border-radius: 10px;
+	-webkit-animation: glow 800ms ease-out infinite alternate;
+	-moz-animation: glow 800ms ease-out infinite alternate;
+	-o-animation: glow 800ms ease-out infinite alternate;
+	-ms-animation: glow 800ms ease-out infinite alternate;
+	animation: glow 800ms ease-out infinite alternate;
+	
+	background: -webkit-linear-gradient(#333933, #222922);
+	background: -moz-linear-gradient(#333933, #222922);
+	background: -o-linear-gradient(#333933, #222922);
+	background: -ms-linear-gradient(#333933, #222922);
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+#envoltura{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-165px;
+	margin-top:-150px;
+	width:330px
+}
+
+#contenedor{
+	background-color:#356AA0;
+	box-shadow: 0 0 0 5px rgba(255,255,255,.3);
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px
+}
+
+#cabecera{
+	border-bottom: 1px solid #666;
+	color:#FFF;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:28px;
+	height:100px;
+	line-height:50px;
+	text-shadow: 1px 1px 2px #000000;
+	text-align:center
+}
+
+#cuerpo{
+	background:#ececec;
+	border:solid #ccc;
+	border-width: 1px 0;
+	padding:10px 30px
+}
+
+form,p{
+	margin:0
+}
+
+p{
+	padding-bottom: 5px
+}
+
+.mb10{
+	margin-bottom: 10px
+}
+
+label{
+	color: #666;
+	font-weight: bold
+}
+
+input{
+	border: 1px solid #999;
+	border-radius:2px;box-shadow: 0 0 0 2px rgba(0,0,0,.1);
+	font:bold 12px Arial, Helvetica, sans-serif;
+	height: 30px;
+	line-height: 24px;
+	padding:0 2px
+}
+
+input#usuario{
+	background:#fff url(../img/login-sprite.png) no-repeat;
+	padding-left: 30px;
+	width: 100px
+}
+
+input#contrasenia{
+	background:#fff url(../img/password-icono.png) no-repeat;
+	padding-left: 30px;
+	width: 80px
+}
+
+.boton{
+	background: #ccc;
+	background: -moz-linear-gradient(top,#eee,#ccc);
+	background: -webkit-linear-gradient(top,#eee,#ccc);
+	background: linear-gradient(top,#eee,#ccc);
+	color: #666;
+	padding:0 10px
+}
+
+.boton:active{
+	position: relative;
+	top: 8px
+}
+
+#pie{
+	border-top: 1px solid #666;
+	color: #fff;
+	font-size: 11px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center
+}
+
+#nota{
+	padding-top: 20px;
+}
+
+#nota a{
+	background:url(../img/login-sprite.png) no-repeat;
+	display: block;
+	height: 18px;
+	margin: 0 auto;
+	opacity:.28;
+	overflow: hidden;
+	text-indent: 100%;
+	-webkit-transition:opacity .3s linear;
+	-moz-transition:opacity .3s linear;
+	transition:opacity .3s linear;
+	width: 125px
+}
+
+#nota a:hover{
+	opacity:.5
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+	color: #efe;
+}
+
+
+/*COLORES PARA EL MENU*/
+#header {
+	margin: initial;
+	width: 3000px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+	list-style: none;
+}
+.nav >li {
+
+	float: left;
+}
+.nav li a {
+	background-color: green;
+	color: yellow;
+	text-decoration: blink;
+	padding: 8px 16px;
+	display: block;
+	transition: all ease-out 300ms;
+}
+.nav li a:hover {
+	background-color: #434343;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 60px;
+}
+.nav li:hover > ul {
+	display: block;
+}
+.nav li ul li {
+	position: initial;
+}
+.nav li ul li ul {
+	right: 160px;
+	top: 0px;
+	right: 0;
+}
+
+/*ESTILOS PARA LOS LISTADOS*/
+a {
+  text-decoration: none; /*para quitar el subrayado de los enlaces*/
+  color: #000000; /*negro de la letra*/
+  font-family: Times New Roman;
+  font-size: 12px;
+  font-weight: bold;
+}
+a:hover {
+	background: #191970;
+	color: white;
+	text-decoration: underline;
+	box-shadow: -2px 2px 5px #000; /*para la sombra de la cajita*/
+	font-family: Tahoma;
+}
+table {
+	width: auto;
+	border: 1px solid;
+	border-collapse: collapse;
+	background-color:#D4DE99;
+}
+.listado th{
+    font-size: 16px;
+    border: 1px solid #000;
+	border-bottom: 5px solid #0f362d;
+	background-color: #246355;
+    color: white;
+}
+.listado td {
+    font-size: 14px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+tr:nth-child(even){
+ background-color: #A2DF93;
+}
+
+/*ESTILO PARA LOS TITULOS DE LISTADOS*/
+.titulo_listado{
+	width: 400px;
+	height: 70px;
+	position: relative;
+	top: 15px;
+	left: 40%;
+	font-family: Times New Roman;
+
+}
+.titulo_nuevo{
+	position: relative;
+	border: 1px solid #000;
+	left: 90%;
+	width: 70px;
+	background-color: greenyellow;
+	border-radius: 8px;
+
+}
+/*ESTILO FORMUS DE INGRESO DATOS*/
+.formu_ingreso_datos{
+	width: 315px;
+	background: transparent 0.3px;
+	box-shadow: 0 0 8px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	position: relative;
+	font-size: 15px;
+	top: 80px;
+	left: 40%;
+	padding-left: 60px;
+	border: solid 2px;
+	border-radius:20px;
+}
+.boton2{
+	border: solid 2px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-left: 40%;
+	margin: 10px;
+}
+.let{
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 30px;
+	color: #000;
+	height:100px;
+	line-height:50px;
+	text-shadow: 1px 1px 2px #000000;
+	text-align:center
+}
+.boton_cerrar{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: yellow;
+  font-family: Helvetica, sans-serif;
+  background-color: green;
+  transition:transform 1s;
+}
+ .boton_cerrar:hover { 
+   transform: scale3d(1.3, 1.5, 1.0);
+   transition: all 0.5s ease;
+}
